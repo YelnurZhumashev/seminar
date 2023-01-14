@@ -5,7 +5,7 @@
 Console.Write("Введите число: "); 
 int num = Convert.ToInt32(Console.ReadLine()); 
 
-Console.Write("Название дня недели: "); 
+Console.Write("Название дня недели: ");
 if (num == 1)
     Console.WriteLine("Понедельник");
 else if (num == 2)
