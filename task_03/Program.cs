@@ -20,4 +20,5 @@ else if (num == 6)
     Console.WriteLine("Суббота");
 else if (num == 7)
     Console.WriteLine("Воскресенья");
-else Console.WriteLine("Введено некорректное значение");
+else 
+    Console.WriteLine("Введено некорректное значение");
