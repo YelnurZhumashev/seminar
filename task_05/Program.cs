@@ -4,10 +4,18 @@
 
 Console.Write("Введите число: "); 
 int num = Convert.ToInt32(Console.ReadLine()); 
-int count = -num;
+
 Console.WriteLine("Все целые числа в промежутке от -N до N: "); 
-while (count <= num)
+if (num > 0)
 {
-    Console.Write(count+" ");
-    count++;
-};
+    int count = -num;
+    while (count <= num)
+    {
+        Console.Write(count+" ");
+        count++;
+    }
+}
+else 
+{
+    Console.Write("Число должно быть больше нуля");
+}
