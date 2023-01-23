@@ -14,8 +14,8 @@ Console.WriteLine($"результат -> {res}");
 
 int RemoveSecondDigit(int num)
 {
-    int num1 = number / 100;
-    int num3 = number % 10;
+    int num1 = num / 100;
+    int num3 = num % 10;
     int result = num1 * 10 + num3;
     return result;
 }
