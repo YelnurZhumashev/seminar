@@ -10,7 +10,7 @@ bool Multiplicity(int number)
     return number % 7 == 0 && number % 23 == 0;
 }
 
-Console.Write("Введите первое число: ");
+Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 bool res = Multiplicity(num);
 Console.WriteLine (res ? $"{num} -> Да": $"{num} -> Нет");

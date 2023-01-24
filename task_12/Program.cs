@@ -19,10 +19,12 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 //     Console.WriteLine($"{num1} не кратно {num2} , остаток {num1 % num2}");
 // }
 
- int remains = Remains( num1,num2);
-Console.WriteLine($"кратно ");
+int remains = Remains(num1, num2);
+Console.WriteLine(remains);
 
-int Remains(int number1,int number2 )
+int Remains(int number1,int number2)
 {
-    return number1 % number2;
+    int remain = number1 % number2;
+    if (remain == 0)
+    return remain;
 }
