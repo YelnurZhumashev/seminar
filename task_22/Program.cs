@@ -11,9 +11,24 @@ void SquareTable(int num)
     while(count <= num)
     {
         
-        Console.WriteLine($"{count} -> {count * count}");
+        Console.WriteLine($"{count,5} -> {count * count,5}");
         count++;
     } 
 }
 
 SquareTable(number);
+
+
+
+// Console.WriteLine("Введите число");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// void SquareTable(int num)
+// {
+//     for(int i = 1; i <= num; i++)
+//     {
+//         Console.WriteLine($"{i,5} -> {i * i,5}");
+//     }
+// }
+
+// SquareTable(number);
